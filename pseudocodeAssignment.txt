@@ -1,0 +1,155 @@
+Pseudocode FOR MY HYDROPONIC SYSTEM
+
+int Main
+
+
+START
+	Enter option as character to show MENU SELECTION
+
+	While SELECTION is different of 5
+		start switch choose
+		CASE 1
+			call function infopH
+			break
+		CASE 2
+			CALL function lighting
+			break
+		CASE 3
+			CALL function humidity
+			break
+		CASE 4
+			CALL function humidity
+			break
+		CASE 5
+			CALL function Nutritional Needs
+			break
+		switch DEFAULT return
+	ENDDO
+END	
+
+
+
+MENU option
+	
+	DECLARE choice as character
+	DISPLAY  menu principal
+	DISPLAY  WELCOME TO MY HYDROPONIC SYSTEM as new line
+	DISPLAY Enter information of pH level as new line
+	DISPLAY Enter information of Lighting cicle level as new line
+	DISPLAY Enter information of Humidity as new line
+	DISPLAY Enter information of Temperature as new line
+	DISPLAY Enter Nutritional Needs as new line
+	DISPLAY Enter an option
+	get back to choice
+	
+	
+
+START infopH FUNCTION
+	DECLARE pH level1, pH level2 as float
+	register fp file as pointer
+	open data file file in writing MODE
+	DISPLAY enter the first pH level 1
+	DISPLAY the second pH level
+	
+	WHILE if pHlevel 1 is EQUAL TO 5.5 and pH Level 2 is EQUAL TO 6.5
+		DISPLAY You have gotten the correct values for pH
+			break the loop
+		ELSE Please enter again, issues in pHof the system
+			continue with the loop
+			DISPLAY the level of pHlevel
+			adding those values into the data file file
+			DISPLAY added succesfully
+			close data file
+	ENDWHILE
+END FUNCTION
+
+
+START lighting FUNCTION
+	DECLARE lightSun and darkness AS INTEGER
+	register filehandling fp as pointer
+	open data file in writing MODE
+	DISPLAY Enter the Sun light
+	DISPLAY Enter the darkness period
+	
+	WHILE if lightSun is in between 17 and 19
+		DISPLAY the plant is getting the best lighting
+			break
+		ELSE IF darkness is around 8
+			DISPLAY Suitable darkness for respiration
+			break
+		ELSE invalid please enter again
+			continue
+			DISPLAY the the correct values for lihtSun and Darkness
+			adding those values into data file 
+			DISPLAY added succesfully
+			close data file
+	ENDWHILE
+END FUNCTION
+
+
+START  Humidity FUNCTION
+	DECLARE structure for night and day humidity as strings
+	night humidity IS EQUAL TO 65 and 75 as string value
+	day humidity IS EQUAL TO  80 and 90 as string values
+	register filehandling fp as pointer
+	open data file  in writing MODE
+	adding those string values into data file
+	DISPLAY added succesfully
+	DISPLAY refer to the file
+	close data file
+		
+	DISPLAY Here is the humidity night humidity
+	DISPLAY Here is the humidity day humidity
+END FUNTION
+
+
+START  temperature FUNCTION	
+	INITIALIZE tempDay and tempNight as INTEGER
+	register filehandling fp as pointer
+	open data file  in writing MODE
+	DISPLAY Enter the temperature day (21-26)
+	printf Enter the temperature night (13-18)
+	while if tempDay is around 20 and 27
+		DISPLAY Suitable temp range for the system
+			break
+		ELSE IF tempNight is in between 12 and 19
+			DISPLAY Correct value for night temp
+				break
+		ELSE Invalid temperature please enter again	
+				continue				
+			DISPLAY tempDay and tempNight
+			adding those values into data file
+			DISPLAY added succesfully
+			close data file
+	ENDWHILE
+END FUNCTION
+
+START FUNCTION Nutritional Needs
+	DECLARE structure for night and day humidity as strings
+	register filehandling fp as pointer
+	open data file  in writing MODE
+	adding those values into data file
+	DISPLAY added succesfully
+	DISPLAY Please check the fil
+	close data file
+	
+	DISPLAY Nitrogen(N), Phosporons(P), potassium(K)
+ENNFUNCTION
+	
+	
+	
+		
+		
+	
+	
+	
+		
+		
+			
+			
+		
+			
+	
+	
+	
+
