@@ -17,14 +17,6 @@ Hydroponics offers efficient plant cultivation, but requires precise control ove
 
 ---
 
-## 📸 Screenshots / Demo
-
-<div align="center">
-  <p><em>(Add screenshots showing parameter monitoring, input prompts, validation messages, etc. here)</em></p>
-  </div>
-
----
-
 ## 🚀 Key Features
 
 * **💧 pH Management:**
